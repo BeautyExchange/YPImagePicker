@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -53,7 +53,6 @@
 		99C6D6C81F1FB5C100711DB2 /* YPFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D6AE1F1FB5C100711DB2 /* YPFiltersView.swift */; };
 		99C6D6C91F1FB5C100711DB2 /* YPBottomPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D6AF1F1FB5C100711DB2 /* YPBottomPager.swift */; };
 		99C6D6CB1F1FB5C100711DB2 /* YPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D6B11F1FB5C100711DB2 /* YPHelper.swift */; };
-		99C6D6CC1F1FB5C100711DB2 /* YPImagePickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C6D6B21F1FB5C100711DB2 /* YPImagePickerHeader.h */; };
 		99C6D6CE1F1FB5C100711DB2 /* YPPhotoSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D6B41F1FB5C100711DB2 /* YPPhotoSaver.swift */; };
 		99C6D6CF1F1FB5C100711DB2 /* YPPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D6B51F1FB5C100711DB2 /* YPPickerVC.swift */; };
 		99C6D6D01F1FB5C100711DB2 /* YPVideoCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D6B71F1FB5C100711DB2 /* YPVideoCaptureVC.swift */; };
@@ -95,6 +94,9 @@
 		EBD66105208104EA00EA276E /* YPIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD66104208104EA00EA276E /* YPIcons.swift */; };
 		EBD66107208104F400EA276E /* YPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD66106208104F400EA276E /* YPColors.swift */; };
 		EBE6CA48210389ED005B0A6A /* CIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE6CA47210389ED005B0A6A /* CIImage+Extensions.swift */; };
+		F4B7767A25051E26009217D0 /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = F4B7767925051E26009217D0 /* Stevia */; };
+		F4B7767D25051EBD009217D0 /* PryntTrimmerView in Frameworks */ = {isa = PBXBuildFile; productRef = F4B7767C25051EBD009217D0 /* PryntTrimmerView */; };
+		F4B77680250523C4009217D0 /* YPImagePickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C6D6B21F1FB5C100711DB2 /* YPImagePickerHeader.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,7 +162,7 @@
 		99C6D6AF1F1FB5C100711DB2 /* YPBottomPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPBottomPager.swift; sourceTree = "<group>"; };
 		99C6D6B11F1FB5C100711DB2 /* YPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPHelper.swift; sourceTree = "<group>"; };
 		99C6D6B21F1FB5C100711DB2 /* YPImagePickerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPImagePickerHeader.h; sourceTree = "<group>"; };
-		99C6D6B31F1FB5C100711DB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C6D6B31F1FB5C100711DB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/YPImagePicker/Info.plist; sourceTree = SOURCE_ROOT; };
 		99C6D6B41F1FB5C100711DB2 /* YPPhotoSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPPhotoSaver.swift; sourceTree = "<group>"; };
 		99C6D6B51F1FB5C100711DB2 /* YPPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPPickerVC.swift; sourceTree = "<group>"; };
 		99C6D6B71F1FB5C100711DB2 /* YPVideoCaptureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPVideoCaptureVC.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 		EBD66104208104EA00EA276E /* YPIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPIcons.swift; sourceTree = "<group>"; };
 		EBD66106208104F400EA276E /* YPColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPColors.swift; sourceTree = "<group>"; };
 		EBE6CA47210389ED005B0A6A /* CIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+Extensions.swift"; sourceTree = "<group>"; };
+		F4B7767F2505236A009217D0 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +218,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B7767D25051EBD009217D0 /* PryntTrimmerView in Frameworks */,
+				F4B7767A25051E26009217D0 /* Stevia in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,9 +229,10 @@
 		52412A891CA6114A0073C4BE = {
 			isa = PBXGroup;
 			children = (
+				F4B7767F2505236A009217D0 /* Package.swift */,
 				EB84ADD622F355E8003667B5 /* Cartfile */,
 				EB84ADD522F35506003667B5 /* YPImagePicker.podspec */,
-				99C6D69D1F1FB5C100711DB2 /* Source */,
+				99C6D69D1F1FB5C100711DB2 /* Sources */,
 				99C6D6971F1FB5C100711DB2 /* Resources */,
 				52412A941CA6114A0073C4BE /* Products */,
 				EB3251DE20878D5900A6190D /* Frameworks */,
@@ -314,21 +320,12 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		99C6D69D1F1FB5C100711DB2 /* Source */ = {
+		99C6D69D1F1FB5C100711DB2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				99C6D6B81F1FB5C100711DB2 /* YPImagePicker.swift */,
-				99C6D6B51F1FB5C100711DB2 /* YPPickerVC.swift */,
-				99019E4F2018CDDF007325C2 /* Configuration */,
-				EB65C4B3209281A10037858B /* Pages */,
-				99C6D6A91F1FB5C100711DB2 /* Filters */,
-				EBD2B639207B7B1100E711C2 /* SelectionsGallery */,
-				99019E542018CECC007325C2 /* Helpers */,
-				EBD2B63D207B7D4E00E711C2 /* Models */,
-				99C6D6B31F1FB5C100711DB2 /* Info.plist */,
-				99C6D6B21F1FB5C100711DB2 /* YPImagePickerHeader.h */,
+				F4B7767E25052357009217D0 /* YPImagePicker */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		99C6D69E1F1FB5C100711DB2 /* Gallery */ = {
@@ -473,6 +470,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F4B7767E25052357009217D0 /* YPImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				99C6D6B21F1FB5C100711DB2 /* YPImagePickerHeader.h */,
+				99C6D6B31F1FB5C100711DB2 /* Info.plist */,
+				99C6D6B81F1FB5C100711DB2 /* YPImagePicker.swift */,
+				99C6D6B51F1FB5C100711DB2 /* YPPickerVC.swift */,
+				99019E4F2018CDDF007325C2 /* Configuration */,
+				EB65C4B3209281A10037858B /* Pages */,
+				99C6D6A91F1FB5C100711DB2 /* Filters */,
+				EBD2B639207B7B1100E711C2 /* SelectionsGallery */,
+				99019E542018CECC007325C2 /* Helpers */,
+				EBD2B63D207B7D4E00E711C2 /* Models */,
+			);
+			path = YPImagePicker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -480,7 +494,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C6D6CC1F1FB5C100711DB2 /* YPImagePickerHeader.h in Headers */,
+				F4B77680250523C4009217D0 /* YPImagePickerHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +516,10 @@
 			dependencies = (
 			);
 			name = YPImagePicker;
+			packageProductDependencies = (
+				F4B7767925051E26009217D0 /* Stevia */,
+				F4B7767C25051EBD009217D0 /* PryntTrimmerView */,
+			);
 			productName = Fusuma;
 			productReference = 52412A931CA6114A0073C4BE /* YPImagePicker.framework */;
 			productType = "com.apple.product-type.framework";
@@ -549,6 +567,10 @@
 				pl,
 			);
 			mainGroup = 52412A891CA6114A0073C4BE;
+			packageReferences = (
+				F4B7767825051E26009217D0 /* XCRemoteSwiftPackageReference "Stevia" */,
+				F4B7767B25051EBD009217D0 /* XCRemoteSwiftPackageReference "PryntTrimmerView" */,
+			);
 			productRefGroup = 52412A941CA6114A0073C4BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -762,7 +784,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -818,11 +840,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -848,10 +871,14 @@
 					"$(PROJECT_DIR)/Resources",
 					"$(PROJECT_DIR)/Source",
 				);
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = Sources/YPImagePicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 4.3.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yummypets.YPImagePicker;
@@ -881,10 +908,14 @@
 					"$(PROJECT_DIR)/Resources",
 					"$(PROJECT_DIR)/Source",
 				);
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = Sources/YPImagePicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 4.3.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yummypets.YPImagePicker;
@@ -918,6 +949,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4B7767825051E26009217D0 /* XCRemoteSwiftPackageReference "Stevia" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Stevia";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+		F4B7767B25051EBD009217D0 /* XCRemoteSwiftPackageReference "PryntTrimmerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BeautyExchange/PryntTrimmerView";
+			requirement = {
+				kind = exactVersion;
+				version = 4.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4B7767925051E26009217D0 /* Stevia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4B7767825051E26009217D0 /* XCRemoteSwiftPackageReference "Stevia" */;
+			productName = Stevia;
+		};
+		F4B7767C25051EBD009217D0 /* PryntTrimmerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4B7767B25051EBD009217D0 /* XCRemoteSwiftPackageReference "PryntTrimmerView" */;
+			productName = PryntTrimmerView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52412A8A1CA6114A0073C4BE /* Project object */;
 }
