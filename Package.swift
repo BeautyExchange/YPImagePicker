@@ -1,10 +1,4 @@
-//
-//  Package.swift
-//  YPImagePicker
-//
-//  Created by Salim Braksa on 6/9/2020.
-//  Copyright © 2020 Yummypets. All rights reserved.
-//
+// swift-tools-version:5.3
 
 import PackageDescription
 
